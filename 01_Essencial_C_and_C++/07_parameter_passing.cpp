@@ -35,7 +35,7 @@ int main()
 
     swapByValue(x, y); // Call the swap function
 
-    cout << "After swap: x = " << x << ", y = " << y << endl; // Values remain unchanged
+    cout << "After swap by value: x = " << x << ", y = " << y << endl; // Values remain unchanged
     // because pass by value creates copies of the arguments!
 
     swapByReference(x, y); // Call the swap function
